@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "time": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-server-time"
+      ],
+      "env": {},
+      "icon": "#E5421F"
+    },
+    "asana": {
+      "url": "https://mcp.asana.com/sse",
+      "type": "sse"
+    }
+  }
+}
